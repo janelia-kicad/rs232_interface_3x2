@@ -1,4 +1,4 @@
-# rs232_interface_3x2
+# serial_interface_3x2
 
 Authors:
 
@@ -7,4 +7,3 @@ Authors:
 License:
 
     BSD
-
