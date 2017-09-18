@@ -1,4 +1,4 @@
-# serial_interface_3x2
+# rs232_interface_3x2
 
 Authors:
 

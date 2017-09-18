@@ -28,14 +28,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:serial_interface_3x2
+LIBS:rs232_interface_3x2
 LIBS:components
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "serial_interface_3x2"
+Title "rs232_interface_3x2"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -50,14 +50,14 @@ U 1 1 589B6745
 P 2650 1550
 F 0 "MDB1" H 2650 2547 60  0000 C CNN
 F 1 "MODULAR_DEVICE_BASE_3X2_MALE" H 2650 2441 60  0000 C CNN
-F 2 "serial_interface_3x2:MODULAR_DEVICE_BASE_3X2_MALE" H 600 1050 60  0001 C CNN
+F 2 "rs232_interface_3x2:MODULAR_DEVICE_BASE_3X2_MALE" H 600 1050 60  0001 C CNN
 F 3 "" H 650 2750 60  0000 C CNN
 F 4 "digikey" H 600 1150 60  0001 C CNN "Vendor"
 F 5 "S1011E-16-ND" H 600 1250 60  0001 C CNN "PartNumber"
 F 6 "16 Position Header Through Hole Male Pins" H 600 1350 60  0001 C CNN "Description"
 F 7 "2" H 1900 1250 60  0001 C CNN "PartCount"
 	1    2650 1550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L VDD #PWR01
@@ -67,8 +67,8 @@ F 0 "#PWR01" H 100 -400 50  0001 C CNN
 F 1 "VDD" H 1367 923 50  0000 C CNN
 F 2 "" H 100 -250 50  0001 C CNN
 F 3 "" H 100 -250 50  0001 C CNN
-	1    1350 750 
-	1    0    0    -1  
+	1    1350 750
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG01
@@ -78,16 +78,16 @@ F 0 "#FLG01" H -150 -175 50  0001 C CNN
 F 1 "PWR_FLAG" H 1100 924 50  0000 C CNN
 F 2 "" H -150 -250 50  0001 C CNN
 F 3 "" H -150 -250 50  0001 C CNN
-	1    1100 750 
-	1    0    0    -1  
+	1    1100 750
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	1100 750  1100 800 
+	1100 750  1100 800
 Wire Wire Line
-	1100 800  1400 800 
+	1100 800  1400 800
 Wire Wire Line
-	1350 750  1350 800 
-Connection ~ 1350 800 
+	1350 750  1350 800
+Connection ~ 1350 800
 $Comp
 L GND #PWR02
 U 1 1 589B67FE
@@ -96,8 +96,8 @@ F 0 "#PWR02" H -500 -650 50  0001 C CNN
 F 1 "GND" H 705 777 50  0000 C CNN
 F 2 "" H -500 -400 50  0001 C CNN
 F 3 "" H -500 -400 50  0001 C CNN
-	1    700  950 
-	1    0    0    -1  
+	1    700  950
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG02
@@ -107,14 +107,14 @@ F 0 "#FLG02" H -550 -175 50  0001 C CNN
 F 1 "PWR_FLAG" H 700 924 50  0000 C CNN
 F 2 "" H -550 -250 50  0001 C CNN
 F 3 "" H -550 -250 50  0001 C CNN
-	1    700  750 
-	1    0    0    -1  
+	1    700  750
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	700  750  700  950 
+	700  750  700  950
 Wire Wire Line
-	700  900  1400 900 
-Connection ~ 700  900 
+	700  900  1400 900
+Connection ~ 700  900
 NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1200
@@ -127,7 +127,7 @@ NoConn ~ 1400 1800
 NoConn ~ 1400 2100
 NoConn ~ 1400 2200
 NoConn ~ 1400 2300
-NoConn ~ 3900 800 
+NoConn ~ 3900 800
 NoConn ~ 3900 1000
 NoConn ~ 3900 1200
 NoConn ~ 3900 1300
@@ -149,8 +149,8 @@ F 0 "#PWR03" H 200 -50 50  0001 C CNN
 F 1 "VEE" H 4467 973 50  0000 C CNN
 F 2 "" H 200 100 50  0001 C CNN
 F 3 "" H 200 100 50  0001 C CNN
-	1    4450 800 
-	1    0    0    -1  
+	1    4450 800
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG03
@@ -160,29 +160,29 @@ F 0 "#FLG03" H 3500 -125 50  0001 C CNN
 F 1 "PWR_FLAG" H 4750 974 50  0000 C CNN
 F 2 "" H 3500 -200 50  0001 C CNN
 F 3 "" H 3500 -200 50  0001 C CNN
-	1    4750 800 
-	1    0    0    -1  
+	1    4750 800
+	1    0    0    -1
 $EndComp
 Wire Wire Line
-	4750 900  4750 800 
+	4750 900  4750 800
 Wire Wire Line
-	3900 900  4750 900 
+	3900 900  4750 900
 Wire Wire Line
-	4450 800  4450 900 
-Connection ~ 4450 900 
+	4450 800  4450 900
+Connection ~ 4450 900
 $Comp
 L DB9M_RA J1
 U 1 1 59BC00B8
 P 9450 1850
 F 0 "J1" H 9629 1896 50  0000 L CNN
 F 1 "DB9M_RA" H 9629 1805 50  0000 L CNN
-F 2 "serial_interface_3x2:DB9M_RA" H 9350 2300 50  0001 C CNN
+F 2 "rs232_interface_3x2:DB9M_RA" H 9350 2300 50  0001 C CNN
 F 3 "" H 9450 2400 50  0001 C CNN
 F 4 "digikey" H 9550 2500 60  0001 C CNN "Vendor"
 F 5 "AE10968-ND" H 9650 2600 60  0001 C CNN "PartNumber"
 F 6 "CONN D-SUB PLUG 9POS R/A SOLDER" H 9750 2700 60  0001 C CNN "Description"
 	1    9450 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR04
@@ -193,7 +193,7 @@ F 1 "GND" H 9005 1327 50  0000 C CNN
 F 2 "" H 7800 150 50  0001 C CNN
 F 3 "" H 7800 150 50  0001 C CNN
 	1    9000 1500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	9000 1500 9000 1450
@@ -227,13 +227,13 @@ U 1 1 59BC4175
 P 7900 2000
 F 0 "U1" H 8300 2350 60  0000 L CNN
 F 1 "RS232_2x2" H 8300 1650 60  0000 L CNN
-F 2 "serial_interface_3x2:SOIC_16" H 7900 3250 60  0001 C CNN
+F 2 "rs232_interface_3x2:SOIC_16" H 7900 3250 60  0001 C CNN
 F 3 "" H 7900 2000 60  0001 C CNN
 F 4 "digikey" H 7900 3350 60  0001 C CNN "Vendor"
 F 5 "296-33568-5-ND" H 7900 3450 60  0001 C CNN "PartNumber"
 F 6 "IC RS232 LINE DVR/RCVR 16-SOIC" H 7900 3550 60  0001 C CNN "Description"
 	1    7900 2000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 8400 2050
 NoConn ~ 8400 2150
@@ -263,7 +263,7 @@ F 1 "GND" H 7905 2377 50  0000 C CNN
 F 2 "" H 6700 1200 50  0001 C CNN
 F 3 "" H 6700 1200 50  0001 C CNN
 	1    7900 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7900 2500 7900 2550
@@ -276,7 +276,7 @@ F 1 "+3V3" H 4865 1223 50  0000 C CNN
 F 2 "" H 4850 1050 50  0001 C CNN
 F 3 "" H 4850 1050 50  0001 C CNN
 	1    4850 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PWR_FLAG #FLG04
@@ -287,7 +287,7 @@ F 1 "PWR_FLAG" H 5150 1224 50  0000 C CNN
 F 2 "" H 3900 50  50  0001 C CNN
 F 3 "" H 3900 50  50  0001 C CNN
 	1    5150 1050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3900 1100 5150 1100
@@ -305,7 +305,7 @@ F 1 "+3V3" H 7915 1623 50  0000 C CNN
 F 2 "" H 7900 1450 50  0001 C CNN
 F 3 "" H 7900 1450 50  0001 C CNN
 	1    7900 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7900 1450 7900 1500
@@ -318,7 +318,7 @@ F 1 "GND" H 7305 1927 50  0000 C CNN
 F 2 "" H 6100 750 50  0001 C CNN
 F 3 "" H 6100 750 50  0001 C CNN
 	1    7300 2100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7400 2050 7300 2050
@@ -330,13 +330,13 @@ U 1 1 59BC4A11
 P 7600 2750
 F 0 "C3" H 7600 2850 40  0000 L CNN
 F 1 "0.1uF" H 7600 2750 30  0000 C CNN
-F 2 "serial_interface_3x2:SM1210" H 7638 2600 30  0001 C CNN
+F 2 "rs232_interface_3x2:SM1210" H 7638 2600 30  0001 C CNN
 F 3 "" H 7600 2750 60  0000 C CNN
 F 4 "digikey" H 7700 2950 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 7800 3050 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 7900 3150 60  0001 C CNN "Description"
 	1    7600 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 0.1uF C4
@@ -344,13 +344,13 @@ U 1 1 59BC4AE9
 P 8200 2750
 F 0 "C4" H 8200 2850 40  0000 L CNN
 F 1 "0.1uF" H 8200 2750 30  0000 C CNN
-F 2 "serial_interface_3x2:SM1210" H 8238 2600 30  0001 C CNN
+F 2 "rs232_interface_3x2:SM1210" H 8238 2600 30  0001 C CNN
 F 3 "" H 8200 2750 60  0000 C CNN
 F 4 "digikey" H 8300 2950 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 8400 3050 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 8500 3150 60  0001 C CNN "Description"
 	1    8200 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR09
@@ -361,7 +361,7 @@ F 1 "GND" H 7605 2827 50  0000 C CNN
 F 2 "" H 6400 1650 50  0001 C CNN
 F 3 "" H 6400 1650 50  0001 C CNN
 	1    7600 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR010
@@ -372,7 +372,7 @@ F 1 "GND" H 8205 2827 50  0000 C CNN
 F 2 "" H 7000 1650 50  0001 C CNN
 F 3 "" H 7000 1650 50  0001 C CNN
 	1    8200 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L 0.1uF C5
@@ -380,13 +380,13 @@ U 1 1 59BC4B83
 P 7100 1200
 F 0 "C5" H 7100 1300 40  0000 L CNN
 F 1 "0.1uF" H 7100 1200 30  0000 C CNN
-F 2 "serial_interface_3x2:SM1210" H 7138 1050 30  0001 C CNN
+F 2 "rs232_interface_3x2:SM1210" H 7138 1050 30  0001 C CNN
 F 3 "" H 7100 1200 60  0000 C CNN
 F 4 "digikey" H 7200 1400 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 7300 1500 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 7400 1600 60  0001 C CNN "Description"
 	1    7100 1200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR011
@@ -397,7 +397,7 @@ F 1 "GND" H 7105 1277 50  0000 C CNN
 F 2 "" H 5900 100 50  0001 C CNN
 F 3 "" H 5900 100 50  0001 C CNN
 	1    7100 1450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3V3 #PWR012
@@ -407,8 +407,8 @@ F 0 "#PWR012" H 7100 800 50  0001 C CNN
 F 1 "+3V3" H 7115 1123 50  0000 C CNN
 F 2 "" H 7100 950 50  0001 C CNN
 F 3 "" H 7100 950 50  0001 C CNN
-	1    7100 950 
-	1    0    0    -1  
+	1    7100 950
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7100 950  7100 1000
@@ -428,13 +428,13 @@ U 1 1 59BC4F0D
 P 7900 1100
 F 0 "C1" V 7950 950 40  0000 L CNN
 F 1 "0.1uF" H 7900 1100 30  0000 C CNN
-F 2 "serial_interface_3x2:SM1210" H 7938 950 30  0001 C CNN
+F 2 "rs232_interface_3x2:SM1210" H 7938 950 30  0001 C CNN
 F 3 "" H 7900 1100 60  0000 C CNN
 F 4 "digikey" H 8000 1300 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 8100 1400 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 8200 1500 60  0001 C CNN "Description"
 	1    7900 1100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L 0.1uF C2
@@ -442,20 +442,20 @@ U 1 1 59BC505A
 P 7900 900
 F 0 "C2" V 7950 750 40  0000 L CNN
 F 1 "0.1uF" H 7900 900 30  0000 C CNN
-F 2 "serial_interface_3x2:SM1210" H 7938 750 30  0001 C CNN
+F 2 "rs232_interface_3x2:SM1210" H 7938 750 30  0001 C CNN
 F 3 "" H 7900 900 60  0000 C CNN
 F 4 "digikey" H 8000 1100 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 8100 1200 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 8200 1300 60  0001 C CNN "Description"
-	1    7900 900 
-	0    -1   -1   0   
+	1    7900 900
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
-	7700 900  7600 900 
+	7700 900  7600 900
 Wire Wire Line
 	7600 900  7600 1500
 Wire Wire Line
-	8100 900  8200 900 
+	8100 900  8200 900
 Wire Wire Line
 	8200 900  8200 1500
 Wire Wire Line
@@ -480,13 +480,13 @@ U 1 1 59BC881E
 P 5200 4550
 F 0 "RJ1" H 5150 5450 60  0000 C CNN
 F 1 "RJ45_8P8C_2PORT_1ROW_RA_SMD" V 5500 4550 60  0000 C CNN
-F 2 "serial_interface_3x2:RJ45_8P8C_2PORT_1ROW_RA_SMD" H 5100 5350 60  0001 C CNN
+F 2 "rs232_interface_3x2:RJ45_8P8C_2PORT_1ROW_RA_SMD" H 5100 5350 60  0001 C CNN
 F 3 "" H 5200 4550 60  0001 C CNN
 F 4 "digikey" H 5300 5550 60  0001 C CNN "Vendor"
 F 5 " RJSSE-5080-02-ND" H 5400 5650 60  0001 C CNN "PartNumber"
 F 6 "CONN MOD JACK 8P8C R/A UNSHLD" H 5500 5750 60  0001 C CNN "Description"
 	1    5200 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 4850 3750
 NoConn ~ 4850 3850
