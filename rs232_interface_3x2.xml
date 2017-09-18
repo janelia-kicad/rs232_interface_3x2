@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/rs232_interface_3x2/rs232_interface_3x2.sch</source>
-    <date>Wed 08 Feb 2017 01:52:27 PM EST</date>
-    <tool>Eeschema no-vcs-found-7602~57~ubuntu16.04.1</tool>
+    <date>Mon 18 Sep 2017 02:29:18 PM EDT</date>
+    <tool>Eeschema no-vcs-found-66b654f~60~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>rs232_interface_3x2</title>
@@ -32,8 +32,173 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B6745</tstamp>
     </comp>
+    <comp ref="U1">
+      <value>RS232_2x2</value>
+      <footprint>rs232_interface_3x2:SOIC_16</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">296-33568-5-ND</field>
+        <field name="Description">IC RS232 LINE DVR/RCVR 16-SOIC</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="RS232_2x2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BC4175</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>rs232_interface_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BC4A11</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>rs232_interface_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BC4AE9</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>rs232_interface_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BC4B83</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>rs232_interface_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BC4F0D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>rs232_interface_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="0.1uF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BC505A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DB9M</value>
+      <footprint>rs232_interface_3x2:DB9M</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">A126098-ND</field>
+        <field name="Description">CONN D-SUB PLUG 9POS VERT SOLDER</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="DB9M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C0243C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DB9F</value>
+      <footprint>rs232_interface_3x2:DB9F</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">A115163-ND</field>
+        <field name="Description"> CONN D-SUB RCPT 9POS VERT SOLDER</field>
+      </fields>
+      <libsource lib="rs232_interface_3x2" part="DB9F"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59C034EA</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="rs232_interface_3x2" part="0.1uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF</field>
+        <field name="Footprint">rs232_interface_3x2:SM1210</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-13229-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rs232_interface_3x2" part="DB9F">
+      <description>9-pin male D-SUB connector</description>
+      <footprints>
+        <fp>DB*M*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9F</field>
+        <field name="Footprint">rs232_interface_3x2:DB9F</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">A115163-ND</field>
+        <field name="Description"> CONN D-SUB RCPT 9POS VERT SOLDER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rs232_interface_3x2" part="DB9M">
+      <description>9-pin male D-SUB connector</description>
+      <footprints>
+        <fp>DB*M*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9M</field>
+        <field name="Footprint">rs232_interface_3x2:DB9M</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">A126098-ND</field>
+        <field name="Description">CONN D-SUB PLUG 9POS VERT SOLDER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="rs232_interface_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE">
       <fields>
         <field name="Reference">MDB</field>
@@ -79,6 +244,34 @@
         <pin num="VEE" name="VEE_(+4-5VDC)" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="rs232_interface_3x2" part="RS232_2x2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RS232_2x2</field>
+        <field name="Footprint">rs232_interface_3x2:SOIC_16</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">296-33568-5-ND</field>
+        <field name="Description">IC RS232 LINE DVR/RCVR 16-SOIC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="passive"/>
+        <pin num="2" name="V+" type="passive"/>
+        <pin num="3" name="C1-" type="passive"/>
+        <pin num="4" name="C2+" type="passive"/>
+        <pin num="5" name="C2-" type="passive"/>
+        <pin num="6" name="V-" type="passive"/>
+        <pin num="7" name="DOUT2" type="passive"/>
+        <pin num="8" name="RIN2" type="passive"/>
+        <pin num="9" name="ROUT2" type="passive"/>
+        <pin num="10" name="DIN2" type="passive"/>
+        <pin num="11" name="DIN1" type="passive"/>
+        <pin num="12" name="ROUT1" type="passive"/>
+        <pin num="13" name="RIN1" type="passive"/>
+        <pin num="14" name="DOUT1" type="passive"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="rs232_interface_3x2">
@@ -86,101 +279,191 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(MDB1-Pad5)">
-      <node ref="MDB1" pin="5"/>
-    </net>
-    <net code="2" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
-    </net>
-    <net code="3" name="Net-(MDB1-PadAREF)">
-      <node ref="MDB1" pin="AREF"/>
-    </net>
-    <net code="4" name="Net-(MDB1-Pad28)">
-      <node ref="MDB1" pin="28"/>
-    </net>
-    <net code="5" name="Net-(MDB1-Pad12)">
-      <node ref="MDB1" pin="12"/>
-    </net>
-    <net code="6" name="Net-(MDB1-Pad11)">
-      <node ref="MDB1" pin="11"/>
-    </net>
-    <net code="7" name="Net-(MDB1-Pad10)">
-      <node ref="MDB1" pin="10"/>
-    </net>
-    <net code="8" name="Net-(MDB1-Pad9)">
-      <node ref="MDB1" pin="9"/>
-    </net>
-    <net code="9" name="Net-(MDB1-Pad29)">
-      <node ref="MDB1" pin="29"/>
-    </net>
-    <net code="10" name="Net-(MDB1-Pad30)">
-      <node ref="MDB1" pin="30"/>
-    </net>
-    <net code="11" name="Net-(MDB1-Pad6)">
-      <node ref="MDB1" pin="6"/>
-    </net>
-    <net code="12" name="Net-(MDB1-Pad3V3)">
+    <net code="1" name="+3V3">
+      <node ref="U1" pin="16"/>
+      <node ref="C5" pin="1"/>
       <node ref="MDB1" pin="3V3"/>
     </net>
-    <net code="13" name="Net-(MDB1-Pad4)">
-      <node ref="MDB1" pin="4"/>
-    </net>
-    <net code="14" name="Net-(MDB1-Pad3)">
-      <node ref="MDB1" pin="3"/>
-    </net>
-    <net code="15" name="Net-(MDB1-Pad2)">
-      <node ref="MDB1" pin="2"/>
-    </net>
-    <net code="16" name="Net-(MDB1-Pad25)">
-      <node ref="MDB1" pin="25"/>
-    </net>
-    <net code="17" name="Net-(MDB1-Pad24)">
-      <node ref="MDB1" pin="24"/>
-    </net>
-    <net code="18" name="GND">
+    <net code="2" name="GND">
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C4" pin="2"/>
       <node ref="MDB1" pin="GND"/>
+      <node ref="U1" pin="10"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C3" pin="2"/>
     </net>
-    <net code="19" name="Net-(MDB1-Pad14)">
-      <node ref="MDB1" pin="14"/>
+    <net code="3" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="20" name="VEE">
-      <node ref="MDB1" pin="VEE"/>
+    <net code="4" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C4" pin="1"/>
     </net>
-    <net code="21" name="Net-(MDB1-PadDAC)">
+    <net code="5" name="/TX2">
+      <node ref="U1" pin="11"/>
+      <node ref="MDB1" pin="10"/>
+    </net>
+    <net code="6" name="/RX2">
+      <node ref="U1" pin="12"/>
+      <node ref="MDB1" pin="9"/>
+    </net>
+    <net code="7" name="/RXD">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="8" name="/TXD">
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="21" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="28" name="Net-(MDB1-PadAGND)">
+      <node ref="MDB1" pin="AGND"/>
+    </net>
+    <net code="29" name="Net-(MDB1-PadAREF)">
+      <node ref="MDB1" pin="AREF"/>
+    </net>
+    <net code="30" name="VDD">
+      <node ref="MDB1" pin="VDD"/>
+    </net>
+    <net code="31" name="Net-(MDB1-PadDAC)">
       <node ref="MDB1" pin="DAC"/>
     </net>
-    <net code="22" name="Net-(MDB1-Pad13)">
+    <net code="32" name="Net-(MDB1-Pad24)">
+      <node ref="MDB1" pin="24"/>
+    </net>
+    <net code="33" name="Net-(MDB1-Pad25)">
+      <node ref="MDB1" pin="25"/>
+    </net>
+    <net code="34" name="Net-(MDB1-Pad2)">
+      <node ref="MDB1" pin="2"/>
+    </net>
+    <net code="35" name="Net-(MDB1-Pad3)">
+      <node ref="MDB1" pin="3"/>
+    </net>
+    <net code="36" name="Net-(MDB1-Pad4)">
+      <node ref="MDB1" pin="4"/>
+    </net>
+    <net code="37" name="Net-(MDB1-Pad5)">
+      <node ref="MDB1" pin="5"/>
+    </net>
+    <net code="38" name="Net-(MDB1-Pad6)">
+      <node ref="MDB1" pin="6"/>
+    </net>
+    <net code="39" name="Net-(MDB1-Pad13)">
       <node ref="MDB1" pin="13"/>
     </net>
-    <net code="23" name="Net-(MDB1-Pad15)">
-      <node ref="MDB1" pin="15"/>
-    </net>
-    <net code="24" name="Net-(MDB1-Pad16)">
-      <node ref="MDB1" pin="16"/>
-    </net>
-    <net code="25" name="Net-(MDB1-Pad17)">
-      <node ref="MDB1" pin="17"/>
-    </net>
-    <net code="26" name="Net-(MDB1-Pad18)">
-      <node ref="MDB1" pin="18"/>
-    </net>
-    <net code="27" name="Net-(MDB1-Pad19)">
-      <node ref="MDB1" pin="19"/>
-    </net>
-    <net code="28" name="Net-(MDB1-Pad20)">
+    <net code="40" name="Net-(MDB1-Pad20)">
       <node ref="MDB1" pin="20"/>
     </net>
-    <net code="29" name="Net-(MDB1-Pad21)">
+    <net code="41" name="Net-(MDB1-Pad30)">
+      <node ref="MDB1" pin="30"/>
+    </net>
+    <net code="42" name="Net-(MDB1-Pad11)">
+      <node ref="MDB1" pin="11"/>
+    </net>
+    <net code="43" name="Net-(MDB1-Pad21)">
       <node ref="MDB1" pin="21"/>
     </net>
-    <net code="30" name="Net-(MDB1-Pad22)">
+    <net code="44" name="Net-(MDB1-Pad12)">
+      <node ref="MDB1" pin="12"/>
+    </net>
+    <net code="45" name="Net-(MDB1-Pad22)">
       <node ref="MDB1" pin="22"/>
     </net>
-    <net code="31" name="Net-(MDB1-Pad23)">
+    <net code="46" name="Net-(MDB1-Pad23)">
       <node ref="MDB1" pin="23"/>
     </net>
-    <net code="32" name="VDD">
-      <node ref="MDB1" pin="VDD"/>
+    <net code="47" name="Net-(MDB1-Pad14)">
+      <node ref="MDB1" pin="14"/>
+    </net>
+    <net code="48" name="Net-(MDB1-Pad15)">
+      <node ref="MDB1" pin="15"/>
+    </net>
+    <net code="49" name="Net-(MDB1-Pad16)">
+      <node ref="MDB1" pin="16"/>
+    </net>
+    <net code="50" name="Net-(MDB1-Pad17)">
+      <node ref="MDB1" pin="17"/>
+    </net>
+    <net code="51" name="Net-(MDB1-Pad18)">
+      <node ref="MDB1" pin="18"/>
+    </net>
+    <net code="52" name="Net-(MDB1-Pad28)">
+      <node ref="MDB1" pin="28"/>
+    </net>
+    <net code="53" name="Net-(MDB1-Pad19)">
+      <node ref="MDB1" pin="19"/>
+    </net>
+    <net code="54" name="Net-(MDB1-Pad29)">
+      <node ref="MDB1" pin="29"/>
+    </net>
+    <net code="55" name="VEE">
+      <node ref="MDB1" pin="VEE"/>
     </net>
   </nets>
 </export>

@@ -1,6 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DB9M_RA
+$CMP DB9F
+D 9-pin male D-SUB connector
+K connector male D-SUB
+$ENDCMP
+#
+$CMP DB9M
 D 9-pin male D-SUB connector
 K connector male D-SUB
 $ENDCMP
