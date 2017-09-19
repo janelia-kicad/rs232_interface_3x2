@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-66b654f~60~ubuntu16.04.1*%
-%TF.CreationDate,2017-09-18T15:45:39-04:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-e2d3fce~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-09-19T11:14:37-04:00*%
 %TF.ProjectId,rs232_interface_3x2,72733233325F696E746572666163655F,1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW no-vcs-found-66b654f~60~ubuntu16.04.1) date Mon Sep 18 15:45:39 2017*
+G04 Created by KiCad (PCBNEW no-vcs-found-e2d3fce~60~ubuntu16.04.1) date Tue Sep 19 11:14:37 2017*
 %MOMM*%
 %LPD*%
 G01*
